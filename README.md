@@ -49,7 +49,7 @@ Este repositorio contiene la estructura y los archivos necesarios para el proyec
 Esta carpeta contiene todos los artículos utilizados para la Revisión preliminar de antecedentes.
 
 
-**_estrategia de trabajo.docx_**
+**_estrategia de trabajo.pdf_**
 
 Documento que proporciona la estrategia general para el proyecto, incluyendo objetivos, plan de trabajo, metodologías a emplear y una revisión preliminar de los antecedentes relacionados con el análisis de datos musicales de Spotify, cubriendo el período de 1998 a 2020. También describe la base de datos que se utilizará y propone una metodología para segmentar canciones en función de sus características, con el fin de prever su éxito.
 
