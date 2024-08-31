@@ -6,7 +6,7 @@
 ●  [Estructura del Repositorio](#estructura_del_repo)<br/>
 ●  [Proposed Archicteture](#proposed_architecture)<br/>
 
-## 📌Descripción del Proyecto] <a name="descripcion_proyecto"></a>
+## 📌Descripción del Proyecto <a name="descripcion_proyecto"></a>
 
 En la era digital, la música es una parte esencial de nuestra vida diaria, y plataformas como Spotify han revolucionado la forma en que descubrimos y disfrutamos canciones. Este proyecto utiliza una base de datos que abarca desde 1998 hasta 2020, recopilando información detallada sobre canciones, incluyendo atributos como género, bailabilidad, energía, popularidad y emociones transmitidas.
 
