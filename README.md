@@ -4,7 +4,6 @@
 
 ●  [Descripción del Proyecto](#descripcion_proyecto)<br/>
 ●  [Estructura del Repositorio](#estructura_del_repo)<br/>
-●  [Proposed Archicteture](#proposed_architecture)<br/>
 
 ## 📌Descripción del Proyecto <a name="descripcion_proyecto"></a>
 
