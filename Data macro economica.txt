@@ -1,0 +1,23 @@
+Se descarga del banco mundial, https://datos.bancomundial.org/, la siguinete data: 
+
+1. Crecimiento Renta nacional neta de USA: aumento o disminución del ingreso total disponible para los residentes del país después de considerar los pagos netos de ingresos al extranjero y la depreciación del capital. Es un indicador importante que mide la salud económica de una nación, ya que refleja la cantidad de ingresos que efectivamente queda disponible para el consumo y la inversión interna.
+2. Final consumption expenditure de USA:Este indicador representa el gasto total en bienes y servicios realizado por los hogares, el gobierno y las instituciones sin fines de lucro que sirven a los hogares (ISFLSH) dentro de una economía durante un período específico. En el caso de Estados Unidos, incluye:
+
+-Gasto de los hogares en bienes como alimentos, ropa, vehículos, y servicios como salud y educación.
+-Gasto del gobierno en bienes y servicios para el consumo colectivo (como defensa y seguridad).
+-Gasto de las ISFLSH, como iglesias, fundaciones y ONGs.
+
+3. Gross savings DE USA: El ahorro bruto de un país se calcula restando el consumo de las personas y las empresas (gastos) de la renta disponible. Incluye:
+
+-Ahorros del gobierno.
+-Ahorros de las empresas (que retienen parte de sus ganancias en lugar de distribuirlas como dividendos).
+-Ahorros de los hogares (el dinero que no se gasta en consumo inmediato).
+
+4. Inflation de USA:La inflación mide el aumento sostenido en el nivel general de precios de bienes y servicios en una economía durante un período de tiempo. En términos simples, cuando la inflación sube, cada unidad de moneda compra menos bienes y servicios que antes. En Estados Unidos, la inflación se monitorea usando indicadores como el Índice de Precios al Consumidor (CPI) o el Índice de Precios al Productor (PPI). Un nivel moderado de inflación es normal en economías en crecimiento, pero niveles muy altos o bajos pueden indicar problemas económicos.
+
+5. unemployment de USA: La tasa de desempleo es el porcentaje de la fuerza laboral que está buscando activamente trabajo pero no puede encontrarlo. Se calcula dividiendo el número de personas desempleadas por la población activa (personas empleadas y aquellas que buscan empleo activamente). Es un indicador fundamental para medir la salud del mercado laboral de un país y su capacidad para generar empleo.
+
+6. gdp-per-capita: El Producto Interno Bruto (PIB) per cápita es el valor total de todos los bienes y servicios producidos dentro de un país durante un año, dividido por la población total. Es una medida de la riqueza económica promedio de los individuos en una nación. En el contexto de Estados Unidos, es un indicador utilizado para comparar el nivel de vida promedio de los ciudadanos con el de otros países. Un PIB per cápita alto generalmente indica una economía más desarrollada y una mejor calidad de vida.
+
+
+Estas bases de datos fueron descargadas e integradas con la base de datos de información de las canciones escuchadas entre 1999 y 2022, para conocer el contexto macroeconomico que se vivió durante el lanzamiento de cada canción
