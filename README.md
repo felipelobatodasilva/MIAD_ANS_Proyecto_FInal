@@ -52,6 +52,7 @@ Este repositorio contiene la estructura y los archivos necesarios para el proyec
     │   ├── Inflation_USA_worldbank.csv
     │   ├── songs_normalize.csv
     │   └── unemployment_worldbank.csv
+    ├── Presentacion usada en el video.pdf
     ├── README.md
     └── Transform_df_songs.Ajuste.ipynb
 
