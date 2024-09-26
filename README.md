@@ -77,7 +77,7 @@ Carpeta que contiene los insumos de datos económicos y de música necesarios pa
 
 **Presentacion usada en el video.pdf**
 
-Archivo que contiene toda los slides usados en la creación del video (Link del video)
+Archivo que contiene toda los slides usados en la creación del video (Link del video: https://www.youtube.com/watch?v=xHJUuwU6Vqw)
 
 **README.md**
 
