@@ -9,18 +9,18 @@
 
 En la era digital, la música es una parte esencial de nuestra vida diaria, y plataformas como Spotify han revolucionado la forma en que descubrimos y disfrutamos canciones. Este proyecto utiliza una base de datos que abarca desde 1998 hasta 2020, recopilando información detallada sobre canciones, incluyendo atributos como género, bailabilidad, energía, popularidad y emociones transmitidas.
 
-El objetivo de este proyecto es analizar esta base de datos para descubrir patrones y grupos de canciones que comparten características similares. A través del análisis de características musicales, buscamos responder a la pregunta:
+Se obtuvieron grupos con características diferentes, tanto económicas como musicales, que pueden generar impacto en la industria musical al servir como insumo para conocer preferencias de la población de acuerdo con el contexto económico.
 
-*¿Existen grupos de canciones con características similares que podrían ayudar a predecir su éxito?*
+Este proyecto está dirigido a productores musicales, plataformas de streaming y analistas de datos que buscan entender las tendencias musicales."
+
+
+*¿Por que algunos generos musicales se vuelven más populas en diferentes contextos económicos en EEUA?*
+ 
 
 ### Motivación
 
-La motivación detrás de este proyecto es utilizar técnicas de aprendizaje no supervisado para revelar estructuras ocultas en los datos musicales. Identificar patrones y agrupaciones en canciones puede ofrecer valiosas perspectivas tanto para artistas como para plataformas de streaming como Spotify:
-
-- *Para los artistas:* Comprender qué características musicales tienden a ser más exitosas puede guiar la creación de nuevas canciones y álbumes.
-- *Para las plataformas de streaming:* Mejorar las recomendaciones personalizadas, optimizar listas de reproducción y diseñar estrategias de marketing más efectivas.
-
-Además, este análisis puede proporcionar una ventaja competitiva en el mercado musical, permitiendo predecir el éxito de nuevas canciones y adaptarse mejor a las tendencias emergentes.
+La motivación para resolver esta pregunta radica en la posibilidad de aplicar técnicas de aprendizaje no supervisado, específicamente el clustering, para revelar estructuras ocultas en los datos musicales que permitan caracterizaciones relacionadas con la realidad económica de la audiencia
+ 
 
 ### Tecnologías y Métodos
 
@@ -34,29 +34,55 @@ Este proyecto emplea técnicas de aprendizaje no supervisado, tales como:
 
 Este repositorio contiene la estructura y los archivos necesarios para el proyecto de análisis de datos musicales utilizando técnicas de aprendizaje automático no supervisado. A continuación, se muestra el árbol acompañado de la descripción detallada de las carpetas y archivos presentes en el repositorio.
      
+    .
+    ├── cicloeeuu.png
+    ├── Clusters aplicado al análisis de la música y su relación con variaciones macroeconómicas.pdf
     ├── Documentos_Academicos
     │   ├── A Study on Music Genre Classification using Machine Learning.pdf
     │   ├── Clustering Music by Genres Using Supervised and Unsupervised Algorithm.pdf
     │   ├── Music Genre Classification using Machine Learning A Comparative Study.pdf
+    │   ├── ProQuestDocuments-2024-09-25.pdf
     │   ├── Supervised learning and unsupervised learning on music data with different genres.pdf
     │   └── Unsupervised Learning for Music Genre Classification of Song Lyrics.pdf
-    ├── estrategia de trabajo.pdf
-    ├── Proyecto_ANS_songs.ipynb
-    └── spotify.xlsx
+    ├── Insumos
+    │   ├── Crecimiento Renta nacional neta.csv
+    │   ├── Final consumption expenditure.csv
+    │   ├── gdp-per-capita-worldbank.csv
+    │   ├── Gross savings.csv
+    │   ├── Inflation_USA_worldbank.csv
+    │   ├── songs_normalize.csv
+    │   └── unemployment_worldbank.csv
+    ├── README.md
+    └── Transform_df_songs.Ajuste.ipynb
+
+**cicloeeuu.png**
+
+Imagen del ciclo económico que se usó para la creación de la variable que permitió separar la base en data asociada de la recesion economia y data de la no recesion economia en los EEUA
+
+
+**Clusters aplicado al análisis de la música y su relación con variaciones macroeconómicas.pdf**
+
+Informe final de la metodologia implementada
+
 
 **_Documentos_Academicos_**
 
 Esta carpeta contiene todos los artículos utilizados para la Revisión preliminar de antecedentes.
 
 
-**_estrategia de trabajo.pdf_**
+**Insumos**
 
-Documento que proporciona la estrategia general para el proyecto, incluyendo objetivos, plan de trabajo, metodologías a emplear y una revisión preliminar de los antecedentes relacionados con el análisis de datos musicales de Spotify, cubriendo el período de 1998 a 2020. También describe la base de datos que se utilizará y propone una metodología para segmentar canciones en función de sus características, con el fin de prever su éxito.
+Carpeta que contiene los insumos de datos económicos y de música necesarios para el análisis.El insumo base es songs_normalize.csv y los demas insumos están asociados a información macroeconomica
 
-**_Proyecto_ANS_songs.ipynb_**
+**Presentacion usada en el video.pdf**
 
-Notebook Jupyter utilizado para el análisis de datos, la aplicación de técnicas de aprendizaje automático y la visualización de los resultados. Es la herramienta principal para realizar experimentos y análisis dentro del proyecto.
+Archivo que contiene toda los slides usados en la creación del video (Link del video)
 
-**_spotify.xlsx_**
+**README.md**
 
-Archivo Excel que contiene datos de canciones extraídos de Spotify. Incluye varias características de las canciones, como género, popularidad, energía, entre otras, que se utilizarán para los análisis en el notebook.
+Archivo que contiene las instrucciones generales y descripción del proyecto.
+
+
+**Transform_df_songs.Ajuste.ipynb**
+
+Notebook de Jupyter utilizado para transformar y ajustar los datos de canciones como parte del proceso de análisis de datos.
